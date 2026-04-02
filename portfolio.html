@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jong Kelly</title>
+    <meta name="description" content="Explore Jong Kelly's portfolio of web development projects and case studies.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">Jong Kelly</h1>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio">
+            <div class="container">
+                <h1>My Portfolio</h1>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="E-Commerce.jpg" alt="E-commerce Website" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce Platform</h3>
+                            <p>A full-stack e-commerce solution with React, PHP, and MySQL. Features include user authentication, payment integration, and admin dashboard.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Stripe</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="mobile">
+                        <div class="project-image">
+                            <img src="Fitness.jpg" alt="Fitness Tracking App" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>Fitness Tracker App</h3>
+                            <p>A React Native mobile app for tracking workouts and nutrition. Includes progress charts, social features, and personalized recommendations.</p>
+                            <div class="project-tech">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Chart.js</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="design">
+                        <div class="project-image">
+                            <img src="Banking.jpg" alt="Banking App UI" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>Banking App Redesign</h3>
+                            <p>Complete UI/UX redesign for a banking application. Focused on improving user experience, accessibility, and modern design principles.</p>
+                            <div class="project-tech">
+                                <span>Figma</span>
+                                <span>Adobe XD</span>
+                                <span>Prototyping</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="port.png" alt="Portfolio Website" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>Creative Portfolio Site</h3>
+                            <p>A responsive portfolio website with an interactive elements. Built with vanilla JavaScript and CSS Grid.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="index.html" target="_blank" class="btn small">Live Demo</a>
+                                <a href="https://github.com/jongkelly37-create" target="_blank" class="btn small secondary">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Jong Kelly. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/jong-kelly-cha-worti-39565b392?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/jongkelly37-create" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
