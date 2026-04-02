@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jong Kelly - Portfolio Website
 
 A modern, responsive personal portfolio website showcasing skills, projects, and professional experience.
@@ -53,3 +54,7 @@ A modern, responsive personal portfolio website showcasing skills, projects, and
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+=======
+# Jong-Kelly
+Official Portfolio of Jong Kelly - Software Engineer, full stack  Web Developer/ App developer etc.
+>>>>>>> e93a5bd6455fc2e46f07785bdf2b6115e38de3e2
